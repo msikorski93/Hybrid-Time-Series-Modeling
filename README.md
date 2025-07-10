@@ -8,3 +8,11 @@
 ![ alt text ](https://img.shields.io/badge/-Google_Colab-F9AB00?logo=googlecolab&logoColor=white)
 
 Time series prediction with hybridization approachs, combining LSTM and XGBoost.
+
+
+|                        |   **RMSE**  |    **R²**  |
+|------------------------|-------------|------------|
+| **LSTM (Baseline)**    |   301.7562  |   0.9280   |
+| **Feature Stacking**   |   102.2692  |   0.9917   |
+| **Residual Learning**  | **70.4254** | **0.9961** |
+| **Ensemble Averaging** |   140.3238  |   0.9844   |
